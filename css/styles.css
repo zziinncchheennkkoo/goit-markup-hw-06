@@ -311,7 +311,7 @@ color: #404bbf;
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  gap: 24px;
 }
 .team-item {
   width: 264px;
