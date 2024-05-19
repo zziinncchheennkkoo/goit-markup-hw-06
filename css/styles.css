@@ -133,7 +133,9 @@ color: #404bbf;
   padding-bottom: 188px;*/
   padding-top: 72px;
   padding-bottom: 72px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/people-office\ 1-min.jpg);
+  /*max-width: 1440px;*/
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
@@ -143,12 +145,16 @@ color: #404bbf;
 .hero-title {
   color: #fff;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  /*font-size: 56px;*/
+  font-size: 36px;
+  /*line-height: 1.07;*/
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  max-width: 496px;
+  /*max-width: 496px;*/
+  max-width: 216px;
   text-align: center;
-  margin-bottom: 48px;
+  /*margin-bottom: 48px;*/
+  margin-bottom: 72px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -183,22 +189,35 @@ color: #404bbf;
 
 /*===PL===*/
 @media screen and (min-width: 768px) {
-
+.hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+  }
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 496px;
+  margin-bottom: 36px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /*===PK===*/
 @media screen and (min-width: 1158px) {
 .hero {
-    background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
   }
+    .hero-title {
+      font-size: 56px;
+      line-height: 1.07;
+      max-width: 496px;
+      margin-bottom: 48px;
+    }
 }
 /*========================features===================*/
 .features {
