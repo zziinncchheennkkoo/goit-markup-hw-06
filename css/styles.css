@@ -129,10 +129,12 @@ color: #404bbf;
 /* =====================hero=================*/
 .hero {
   background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /*padding-top: 188px;
+  padding-bottom: 188px;*/
+  padding-top: 72px;
+  padding-bottom: 72px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-  max-width: 1440px;
+  max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -186,7 +188,17 @@ color: #404bbf;
 
 /*===PK===*/
 @media screen and (min-width: 1158px) {
-
+.hero {
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
 }
 /*========================features===================*/
 .features {
