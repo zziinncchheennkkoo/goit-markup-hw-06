@@ -178,6 +178,16 @@ color: #404bbf;
   background-color: #404bbf;
   cursor: pointer;
 }
+
+/*===PL===*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*===PK===*/
+@media screen and (min-width: 1158px) {
+
+}
 /*========================features===================*/
 .features {
   /*padding: 120px 0;*/
@@ -394,7 +404,9 @@ padding: 32px 0
   padding: 120px 0;
 }
 .team-list {
-  gap: 24px;
+  gap: 64px 24px;
+
+
 }
 .team-item {
   width: calc((100% - 24px) / 4);
