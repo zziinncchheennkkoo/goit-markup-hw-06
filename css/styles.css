@@ -282,11 +282,28 @@ color: #404bbf;
 /*===PL===*/
 @media screen and (min-width: 768px) {
 
+.container {
+  width: 768px;
+  padding: 0 16px 0 16px;
+  margin: 0 auto;
+  }
+}
+
+.nav-list {
+  display: flex;
+  /*display: none;*/
+  gap: 40px;
 }
 
 /*===PK===*/
  @media screen and (min-width: 1158px) {
 
+  .container {
+  width: 1158px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+    }
  }
 
 
